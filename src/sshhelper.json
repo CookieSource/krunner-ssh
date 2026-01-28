@@ -1,0 +1,27 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Alice"
+            }
+        ],
+        "Category": "System",
+        "Description": "Search known SSH targets and connect instantly.",
+        "EnabledByDefault": true,
+        "Icon": "utilities-terminal",
+        "Id": "org.kde.runners.sshhelper",
+        "License": "GPL-2.0-or-later",
+        "Name": "SSH Helper",
+        "Version": "0.1"
+    },
+    "KRunner": {
+        "Priority": 55
+    },
+    "X-KDE-ServiceTypes": [
+        "Plasma/Runner"
+    ],
+    "X-KDE-ConfigModule": "kf6/krunner/kcms/kcm_krunner_sshhelper",
+    "X-Runner-DefaultTriggerWords": [
+        "ssh"
+    ]
+}
